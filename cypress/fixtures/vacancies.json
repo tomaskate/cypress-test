@@ -1,0 +1,528 @@
+{
+    "data": [
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Associate IT Manager",
+            "description": "",
+            "numOfPositions": 1,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 10,
+                "title": "IT Manager",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 2,
+                "firstName": "Odis",
+                "middleName": "",
+                "lastName": "Adalwin",
+                "terminationId": null
+            }
+        },
+        {
+            "id": 5,
+            "name": "Junior Account Assistant",
+            "description": "",
+            "numOfPositions": 2,
+            "status": true,
+            "isPublished": true,
+            "jobTitle": {
+                "id": 22,
+                "title": "Account Assistant",
+                "isDeleted": false
+            },
+            "hiringManager": {
+                "id": 15,
+                "firstName": "Kevin",
+                "middleName": "",
+                "lastName": "Mathews",
+                "terminationId": null
+            }
+        }
+    ],
+    "meta": {
+        "total": 2
+    },
+    "rels": []
+}
