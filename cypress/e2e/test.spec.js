@@ -1,75 +1,19 @@
 /// <reference types="cypress" />
-import moment from "moment";
+import { NavMenuComponent } from "../pages/components/NavigationMenuComponent";
 
-describe("First suite", () => {
+describe("Second suite", () => {
   beforeEach(() => {
     cy.visit("/");
   });
 
-  it("Theme changes test", () => {
-    const colors = {
-      Light: "rgb(255, 255, 255)",
-      Dark: "rgb(34, 43, 69)",
-      Cosmic: "rgb(50, 50, 89)",
-      Corporate: "rgb(255, 255, 255)",
-    };
-
-    cy.get("nb-select").click();
-    cy.get(".options-list")
-      .find("nb-option")
-      .each((el) => {
-        const option = el.text().trim();
-        cy.wrap(el).click();
-        cy.get("nb-layout-header nav")
-          .invoke("css", "background-color")
-          .should("equal", colors[option]);
-        cy.get("nb-select").click();
-      });
-  });
-
-  it("Accordion text visibility check", () => {
-    cy.clickToMenuByName("Layout");
-    cy.clickToMenuByName("Accordion");
-    cy.contains("nb-accordion-item-header", "Product Details")
-      .siblings("nb-accordion-item-body")
-      .find(".item-body")
-      .contains("interstellar cloud")
-      .then((detailsTextArea) => {
-        cy.wrap(detailsTextArea).should("not.be.visible");
-        cy.get("nb-card-body button").forceClick();
-        cy.wrap(detailsTextArea).should("be.visible");
-      });
-  });
-
-  it("Popover visibility test", () => {
-    cy.contains("Modal & Overlays").click();
-    cy.contains("Popover").click();
-    cy.contains("button", "Right").trigger("mouseenter");
-    cy.contains("nb-popover", "Hello, how are you today?").should("be.visible");
-  });
-
-  it("Result form dialog test", () => {
-    cy.contains("Modal & Overlays").click();
-    cy.contains("Dialog").click();
-    cy.contains("nb-card", "Return Result From Dialog").then((card) => {
-      cy.wrap(card).find("nb-card-body button").click();
-      cy.get("ngx-dialog-name-prompt input").type("Test Name");
-      cy.get("[status='success']").click();
-      cy.wrap(card)
-        .find("nb-card-body li")
-        .contains("Test Name")
-        .should("be.visible");
-    });
-  });
-
-  it("test", () => {
-    cy.clickToMenuByName("Forms");
-    cy.clickToMenuByName("Form Layouts");
-    cy.getPrimaryBtn();
-    cy.contains("nb-card", "Using the Grid").getPrimaryBtn().click();
-  });
-
-  it.only("test2", () => {
-    console.log(moment().add(3, "days").format("ll"));
+  it("First", () => {
+    const menu = new NavMenuComponent();
+    const forms = menu.openFormLayoutsPage();
+    // cy.clickToMenuByName("Forms");
+    // cy.clickToMenuByName("Form Layouts");
+    
+    forms.enterEmailValue("value");
+    forms.emailInput.should("have.value", "value");
+    forms.enterPasswordValueAndValidate("test");
   });
 });

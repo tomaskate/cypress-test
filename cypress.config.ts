@@ -5,14 +5,21 @@ export default defineConfig({
   viewportWidth: 1920,
   e2e: {
     setupNodeEvents(on, config) {
+      // implement node event listeners here
+      on("task", {
+        logToConsole(message) {
+          console.log(message);
+          return null;
+        }
+      });
       on("before:browser:launch", (browser, launchOptions) => {
         if (browser.name === "chrome") {
-          launchOptions.args.push("--incognito");
+        launchOptions.args.push("--incognito");
         }
         return launchOptions;
       });
     },
-    baseUrl: "http://localhost:4200/",
     specPattern: "cypress/e2e/**/*.spec.{js,jsx,ts,tsx}",
+    excludeSpecPattern: ["**/2-advanced-examples"],
   },
 });

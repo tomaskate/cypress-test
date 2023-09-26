@@ -95,7 +95,6 @@
     "cypress": "^13.1.0",
     "cypress-xpath": "^2.0.1",
     "husky": "0.13.3",
-    "moment": "^2.29.4",
     "npm-run-all": "4.0.2",
     "rimraf": "2.6.1",
     "run-script-os": "^1.1.6",

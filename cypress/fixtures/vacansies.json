@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "id": 4,
+            "name": "Test Name 1",
+            "status": true,
+            "isPublished": true
+        },
+        {
+            "id": 5,
+            "name": "Test Name 2",
+            "status": true,
+            "isPublished": true
+        },
+        {
+            "id": 6,
+            "name": "Test Name 3",
+            "status": true,
+            "isPublished": true
+        }
+    ],
+    "meta": {
+        "total": 3
+    },
+    "rels": []
+}
