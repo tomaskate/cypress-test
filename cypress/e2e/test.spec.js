@@ -15,5 +15,6 @@ describe("Second suite", () => {
     forms.enterEmailValue("value");
     forms.emailInput.should("have.value", "value");
     forms.enterPasswordValueAndValidate("test");
+    
   });
 });
