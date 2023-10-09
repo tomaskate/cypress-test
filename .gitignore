@@ -32,10 +32,12 @@ testem.log
 /typings
 /docs
 
-# e2e
-/e2e/*.js
-/e2e/*.map
-
 # System Files
 .DS_Store
 Thumbs.db
+
+# mochawesome files
+/mochawesome.json
+/cypress/results/
+/cypress/downloads/
+/mochawesome-report
