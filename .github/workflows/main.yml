@@ -59,12 +59,12 @@ jobs:
               uses: actions/upload-artifact@v3
               with: 
                 path: mochawesome-report
-                name: Main Report
+                name: Main report
               if: failure() || success()
             - name: Get report
               uses:  actions/download-artifact@v3
               with:
-                name: Main Report
+                name: Main report
               if: failure() || success()
 
 
