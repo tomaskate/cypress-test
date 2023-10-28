@@ -8,7 +8,7 @@ on:
             - ".github/workflows/*"
         
 env:
-    RECORD_KEY: ${{secrets.RECORD_KEY}}
+    RECORD_KEY: ${{ secrets.RECORD_KEY }}
 
 jobs:
     testing1:
@@ -40,7 +40,9 @@ jobs:
               if: failure() || success()
 
     testing2:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
+        container: 
+            image: cypress/browsers:node-20.6.1-chrome-116.0.5845.187-1-ff-117.0-edge-116.0.1938.76-1
         steps:
             - name: Add name vars
               run: export RECORD_KEY=${{env.RECORD_KEY}}
@@ -57,12 +59,12 @@ jobs:
               uses: actions/upload-artifact@v3
               with: 
                 path: mochawesome-report
-                name: Main report
+                name: Main Report
               if: failure() || success()
             - name: Get report
               uses:  actions/download-artifact@v3
               with:
-                name: Main report
+                name: Main Report
               if: failure() || success()
 
 
